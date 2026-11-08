@@ -1,0 +1,11 @@
+{% section 'main-page' %}
+<script>
+  // Auto-open the cart drawer when navigating directly to /cart
+  (function tryOpenCart(attempts) {
+    if (typeof window.openCartDrawer === 'function') {
+      window.openCartDrawer();
+    } else if (attempts > 0) {
+      setTimeout(function() { tryOpenCart(attempts - 1); }, 150);
+    }
+  })(10);
+</script>

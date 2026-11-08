@@ -1,0 +1,20 @@
+[
+  {
+    "name": "theme_info",
+    "theme_name": "Vallore SuperBalance",
+    "theme_version": "1.0.0",
+    "theme_author": "Vallore",
+    "theme_documentation_url": "https://vallore.shop",
+    "theme_support_url": "https://vallore.shop"
+  },
+  {
+    "name": "Branding",
+    "settings": [
+      {
+        "type": "image_picker",
+        "id": "favicon",
+        "label": "Favicon"
+      }
+    ]
+  }
+]
